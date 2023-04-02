@@ -1,0 +1,499 @@
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: relative;
+    margin: 0px;
+}
+header{
+    justify-content: center;
+    position: relative;
+    align-self: center;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.top-navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 216px;
+    gap: 417px;
+    
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #1F2937;
+}
+.nav-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+
+    width: 113px;
+    height: 80px;
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#logo-text{
+    width: 113px;
+    height: 22px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 29px 0px;
+    gap: 30px;
+
+    width: 466px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+#nav-link{
+    width: 131px;
+    height: 22px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+
+}
+
+.banner-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 216px;
+
+    height: 414px;
+
+    background: #1F2937;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 12px 0px;
+    gap: 2px;
+
+    width: 488px;
+    height: 414px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    
+}
+#hero-text{
+    width: 383px;
+    height: 113px;
+    margin: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #F9FAF8;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+#hero-secondary-text{
+    width: 472px;
+    height: 70px;
+    margin: 0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #E5E7EB;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}
+.sign-up-button{
+    width: 163px;
+    height: 44px;
+
+    background: #3882F6;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+#banner-button{
+    position: relative;
+}
+.banner-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 490px;
+    height: 414px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.placeholder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 104px 69px;
+    gap: 10px;
+
+    background: #737373;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#banner-image-description{
+    width: 286px;
+    height: 22px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px; 
+    gap: 40px;
+    
+    background: #FFFFFF;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.title-page{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    text-align: center;
+    color: #1F2937;
+    /* Inside auto layout */
+    order: 0;
+}
+.subtext-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.box-image-subtext{
+    width: 130px;
+    height: 237px;
+    flex: none;
+    flex-grow: 0;
+
+}
+.box-img{
+    box-sizing: border-box;
+
+    position: relative;
+    width: 176px;
+    height: 150px;
+    top: 0px;
+
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+.subtext-text{
+    position: relative;
+    width: 176px;
+    height: 91px;
+    bottom: 0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #657594;
+}
+.thor-words{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 42px 382px;
+    gap: 2px;
+
+    height: 388px;
+
+    background: #E5E7EB;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.words{
+    display: flex;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+    
+    width: 675px;
+    color: #1F2937;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.autor{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}   
+
+.signup-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 80px;
+    gap: 150px;
+
+
+    background: #3882F6;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.call-text{
+    order: 0;
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+#call-title{
+    width: 273px;
+    height: 43px;
+    margin: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+#call-subtitle{
+    width: 574px;
+    height: 29px;
+    margin: 0px;
+  
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+#call-button{
+    border: 3px solid #FFFFFF;
+}
+
+
+footer{
+    
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 23px 484px;
+    background: #1F2937;
+    order: 2;
+}
+#footer-text{
+    display: flex;
+    position: relative;
+    height: 30px;
+    margin: 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
